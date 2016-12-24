@@ -19,3 +19,4 @@ $ brew install anyenv
 # Provided formulas
 - [anyenv](https://github.com/riywo/anyenv)
 - [anyenv-update](https://github.com/znz/anyenv-update)
+- [anyenv-git](https://github.com/znz/anyenv-git)
