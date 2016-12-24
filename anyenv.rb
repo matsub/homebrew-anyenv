@@ -9,6 +9,12 @@ class Anyenv < Formula
     def install
         inreplace "libexec/anyenv", %(ANYENV_ROOT="${HOME}/.anyenv"), %(ANYENV_ROOT="#{prefix}")
         prefix.install Dir["*"]
+
+        if build.with? "completions"
+            bash_completion.install "completions/anyenv.bash"
+            fish_completion.install "completions/anyenv.fish"
+            zsh_completion.install "completions/anyenv.zsh"
+        end
     end
 
     def caveats; <<-EOS.undent
