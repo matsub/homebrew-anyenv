@@ -1,5 +1,5 @@
 # homebrew-anyenv
-A Homebrew Formula for [anyenv](https://github.com/riywo/anyenv).
+Homebrew Formulas for [anyenv](https://github.com/riywo/anyenv) and some plugins for it.
 
 
 # Usage
@@ -16,5 +16,6 @@ $ brew install anyenv
 ```
 
 
-## Use of `anyenv`
-see: https://github.com/riywo/anyenv
+# Provided formulas
+- [anyenv](https://github.com/riywo/anyenv)
+- [anyenv-update](https://github.com/znz/anyenv-update)
